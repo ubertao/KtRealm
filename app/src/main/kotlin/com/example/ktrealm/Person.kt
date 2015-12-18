@@ -1,4 +1,4 @@
-package ktrealm
+package com.example.ktrealm
 
 import io.realm.RealmObject
 import io.realm.annotations.RealmClass

@@ -1,4 +1,4 @@
-package ktrealm;
+package com.example.ktrealm;
 
 import org.junit.Test;
 

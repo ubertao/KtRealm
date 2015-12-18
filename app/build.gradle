@@ -17,7 +17,7 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "ktrealm"
+        applicationId "com.example.ktrealm"
         minSdkVersion 19
         targetSdkVersion 23
         versionCode 1
@@ -49,4 +49,5 @@ dependencies {
     compile "io.realm:realm-android-library:$realm_version"
     compile "io.realm:realm-annotations:$realm_version"
     kapt "io.realm:realm-annotations-processor:$realm_version"
+    kapt "io.realm:realm-annotations:$realm_version"
 }
